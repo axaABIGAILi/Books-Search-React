@@ -14,8 +14,8 @@ const Results = props => {
                         <div className="card-body">
                           <h5 className="card-title">{props.title} by {props.author}</h5>
                           <p className="card-text">{props.description}</p>
-                          <button className="btn bg-light">View</button> 
-                          <button className="btn bg-light" type="submit">Save</button>
+                          <button className="btn bg-light mr-2 bookView">View</button>  
+                          <button className="btn bg-light bookSave" type="submit">Save</button>
                         </div>
                       </div>
             </div>
