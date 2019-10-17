@@ -1,7 +1,5 @@
-module.exports = {
-    Header: require('./Header'),
-    Jumbotron: require('./Jumbotron'),
-    Results: require('./Results'),
-    SavedBooks: require('./SavedBooks'),
-    Searchbar: require('./Searchbar')
-}
+export {default as Header} from './Header';
+export {default as Jumbotron} from './Jumbotron';
+export {default as Results} from './Results';
+export {default as SavedBooks} from './SavedBooks';
+export {default as Searchbar} from './Searchbar';
