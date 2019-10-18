@@ -2,6 +2,7 @@ import React from 'react';
 
 const Saved = props => {
     return (
+      <div className="container">
         <div className="row">
         <div className="col">
                 <div className="card mb-3">
@@ -19,6 +20,7 @@ const Saved = props => {
                       </div>
             </div>
           </div>
+        </div>
         </div>
         </div>
     )
