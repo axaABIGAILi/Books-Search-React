@@ -3,14 +3,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
-import {Header, Jumbotron, SavedBooks, Results, Searchbar} from './components/index';
+import {Header, Jumbotron, SavedBooks, Results} from './components/index';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <Header />
-         <Jumbotron />
+        <Jumbotron />
         
         <Switch>
           <Route exact path="/" component={Results} />
